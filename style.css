@@ -114,3 +114,9 @@ font-weight:bold ;
 .me{
    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
+@media screen and (max-width: 600px) {
+    .link-class {
+        font-size: 14px;
+        /* Другие стили для мобильных устройств */
+    }
+}
